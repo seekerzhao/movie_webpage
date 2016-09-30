@@ -1,5 +1,6 @@
 import webbrowser
 class Movie():
+	VALID_STRINGS = ['G', 'PG', 'PG-13', 'R']
 	def __init__(self, movie_title, movie_discription, movie_poster, movie_trailer):
 		self.title = movie_title
 		self.discription = movie_discription
