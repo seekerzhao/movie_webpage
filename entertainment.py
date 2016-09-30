@@ -26,6 +26,7 @@ MaGirl_5 = media.Movie("MaLong", "Ma long's beautiful girlfriend",
 
 # funnyVedio.openPoster()
 # media.testFunction('I love you')
+print(media.Movie.VALID_STRINGS)
 
 movies = [funnyVedio, MaGirl_1, MaGirl_2, MaGirl_3, MaGirl_4, MaGirl_5]
 fresh_tomatoes.open_movies_page(movies)
